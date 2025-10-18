@@ -11,7 +11,7 @@ img {
 
 body {
     height: 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2020/04/06/23/08/water-5011549_1280.jpg);
+    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -19,9 +19,126 @@ body {
     align-items: center;
 
     .container {
-        width: 80%;
+        width: 60%;
         margin: auto;
         display: grid;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 1fr 2fr;
+        padding: 20px;
+
+        .defai {
+            padding: 20px;
+            background-color: aquamarine;
+
+            h1 {
+                color: rgb(255, 255, 255, 1);
+            }
+
+            .future {
+                margin-top: 10PX;
+                text-align: center;
+            }
+        }
+
+        form {
+            padding: 10px;
+            background-color: white;
+
+            .text {
+                p {
+                    text-align: end;
+                }
+
+            }
+
+            .title {
+                margin-top: 20px;
+                margin-left: 30px;
+
+                h1 {
+                    font-size: 28px;
+                }
+            }
+
+            .note {
+                margin-top: 10px;
+                margin-left: 30px;
+
+                .form-group {
+                    width: 100%;
+                    margin-top: 5px;
+                    padding: 4px;
+
+                    input {
+                        width: 100%;
+                        padding: 8px;
+                    }
+                }
+            }
+
+            .policy {
+                padding-left: 30px;
+                margin: 30px;
+
+                p {
+                    margin-left: 17px;
+                }
+            }
+
+            .but {
+                padding: 10px;
+                background-color: rgba(59, 173, 205, 1);
+                color: white;
+                margin-top: 20px;
+                border-radius: 6px;
+
+                p {
+                    text-align: center;
+                    padding: 4px;
+                }
+            }
+
+            p {
+                margin: 10px;
+                text-align: center;
+            }
+
+            .selec {
+                display: flex;
+                gap: 30px;
+                justify-content: space-between;
+
+                .selec-one {
+                    display: flex;
+                    gap: 4px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .selec-two {
+                    display: flex;
+                    gap: 4px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+
+            .dangky {
+                display: flex;
+                justify-content: center;
+                margin: 30px 10px 0;
+
+                li {
+                    list-style: none;
+
+                }
+            }
+
+        }
     }
 }
