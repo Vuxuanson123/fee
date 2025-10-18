@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+        .box {
+            img {
+                border-bottom-left-radius: 20px;
+                border-top-left-radius: 20px;
+            }
+        }
+
+        form {
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+             border-bottom-right-radius: 20px;
+             border-top-right-radius: 20px;
+            h1 {
+                text-align: center;
+            }
+
+            .form-group {
+                margin-top: 20px;
+                display: flex;
+                position: relative;
+
+                input {
+                    width: 100%;
+                    padding: 8px;
+                    border-radius: 45px;
+                }
+
+                i {
+                    position: absolute;
+                    right: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: black;
+                }
+            }
+        }
+
+    }
+
+    .but {
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+        border-radius: 40px;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .matkhau {
+        padding: 10px;
+        color: white;
+        margin-top: 10px;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    .link {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+
+        button {
+            padding: 10px 20px;
+
+            color: white;
+        }
+
+        button:nth-child(1) {
+            background-color: red;
+        }
+         button:nth-child(2) {
+            background-color: blue;
+        }
+         button:nth-child(3) {
+            background-color: violet;
+        }
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 1px solid ghostwhite;
+    }
+
+    .dangky {
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style: none;
+
+        }
+    }
+}
