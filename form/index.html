@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/form/style.css    ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -21,48 +22,62 @@
         </div>
         <form>
             <div class="text">
-                <p>English (UK)</p>
-            </div>
-            <div class="title">
-                <h1>Create Account</h1>
-            </div>
-            <div class="note">
                 <div class="form-group">
-                    <input type="text" placeholder="Full Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Enter your password">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Confirm password">
+                    <select>
+                        <option disabled selected>English (UK)</option>
+                        <option>VIETNAM</option>
+                    </select>
                 </div>
             </div>
-            <div class="policy">
-                <input type="checkbox">
-                <label for="">I have read and agreed to the Terms of Service and</label>
-                <p>Privacy Policy</p>
-            </div>
-            <div class="but">
-                <p>Create Account</p>
-            </div>
-            <p>Or</p>
-            <div class="selec">
-                <div class="selec-one">
-                    <img src="/form/img/google.png" alt="">
-                    <p>Signup with Google</p>
+            <div class="main">
+                <div class="title">
+                    <h1 class="Account">Create Account</h1>
                 </div>
-                <div class="selec-two">
-                    <img src="/form/img/face.png" alt="">
-                    <p>Signup with Facebook</p>
+                <div class="note">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa-solid fa-eye"></i>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa-solid fa-eye"></i>
+                        <input type="password" placeholder="Confirm password">
+                    </div>
                 </div>
+                <div class="policy">
+                    <input type="checkbox">
+                    <label>I have read and agreed to the Terms of Service and<br>Privacy Policy</label>
+                    <!-- <p>Privacy Policy</p> -->
+                </div>
+                <div class="but">
+                    <p>Create Account</p>
+                </div>
+                <div class="or">
+                    <p>Or</p>
+                </div>
+
+                <div class="selec">
+                    <div class="selec-one">
+                        <img src="/form/img/google.png" alt="">
+                        <p>Signup with Google</p>
+                    </div>
+                    <div class="selec-one">
+                        <img src="/form/img/face.png" alt="">
+                        <p>Signup with Facebook</p>
+                    </div>
+                </div>
+
             </div>
-             <div class="dangky">
-                    <li>Already have an account? </li>
-                    <li>Log In</li>
-                </div>
+
+            <div class="dangky">
+                <li>Already have an account? </li>
+                <li class="in">Log In</li>
+            </div>
         </form>
     </div>
 </body>
